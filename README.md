@@ -1,2 +1,22 @@
-# aws-foundation-IaC
-A collection of short-form AWS CloudFormation templates showcasing real-world use cases and infrastructure automation patterns.
+# AWS CloudFormation Use Cases
+This repository contains a series of short-form, production-relevant Infrastructure as Code (IaC) examples using AWS CloudFormation. Each example is built to demonstrate a specific capability or pattern within AWS — from serverless compute and event-driven automation to database lifecycle management and CI/CD integrations.
+
+The goal of this repo is to showcase my practical experience designing, deploying, and automating cloud infrastructure using declarative templates, with an emphasis on clarity, modularity, and security.
+
+## 📌 Highlights include:
+Scheduled Lambda execution using EventBridge
+
+- Static Website Using AWS S3
+- API Gateway + Lambda REST API deployment
+- API Gateway + Lambda + DynamoDB POST
+- EC2 w/ HTTP and SSH Access + nginx  
+- and More
+
+Each folder includes a template and a brief explanation of the use case, architecture, and deployment steps.
+
+🛠️ Tools & Services
+AWS CloudFormation (YAML)
+
+AWS Lambda, S3, EventBridge, Aurora, API Gateway, IAM, Secrets Manager
+
+CLI-based and IaC-first deployment approach
